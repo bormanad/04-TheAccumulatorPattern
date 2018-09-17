@@ -69,6 +69,9 @@ def run_test_draw_parallel_lines():
 
 
 def draw_parallel_lines(n, point, length, window):
+    rg.Point = point
+
+
 
     """
     What comes in: The four arguments are:
